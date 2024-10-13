@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  color: #14171a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1DA1F2;
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5em;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header input {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+
+.profile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.tweet-box {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tweet-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-box textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.tweet-box button {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tweet-feed {
+  margin-top: 20px;
+}
+
+.tweet-card {
+  display: flex;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tweet-card img.tweet-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-content h4 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.tweet-content h4 span {
+  color: #657786;
+}
+
+.tweet-content p {
+  margin-bottom: 10px;
+}
+
+.tweet-image {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.tweet-actions {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.right-panel {
+  width: 25%;
+  padding: 20px;
+}
+
+.right-panel input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.trends, .who-to-follow {
+  margin-top: 20px;
+}
+
+.who-to-follow p {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.who-to-follow img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e1e8ed;
+}
